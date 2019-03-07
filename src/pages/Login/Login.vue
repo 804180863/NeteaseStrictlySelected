@@ -14,7 +14,7 @@
              <img data-v-2a2af8af="" src="//yanxuan.nosdn.127.net/bd139d2c42205f749cd4ab78fa3d6c60.png" alt="">
          </div>
          <div class="zhanghu">
-             <input type="text" placeholder="请输入手机号">
+             <input type="text" placeholder="请输入手机号" >
          </div>
          <div class="mima">
              <input type="text" placeholder="请输入短信验证码">
