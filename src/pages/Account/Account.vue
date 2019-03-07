@@ -5,7 +5,7 @@
         <div class="headerTop">
             <div class="headerleft" @click="goto('/Home')"></div>
          <i class="logo"></i>
-         <div class="headerright"></div>
+         <div class="headerright" @click="goto('/ShoppingCart')"></div>
          <div class="searchtop"></div>
         </div>
      </div>

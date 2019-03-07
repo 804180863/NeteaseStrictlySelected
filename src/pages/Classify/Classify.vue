@@ -1,6 +1,6 @@
 <template>
  <div class="container">
-Classify
+     
  </div>
 </template>
 
