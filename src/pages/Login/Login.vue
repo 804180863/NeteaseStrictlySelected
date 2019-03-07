@@ -19,6 +19,8 @@
          <div class="mima">
              <input type="text" placeholder="请输入短信验证码">
              <button>获取验证码</button>
+         </div>
+         <div class="wenti">
              <a href="##">遇到问题？</a>
              <span>使用账号密码登陆</span>
          </div>
@@ -28,7 +30,9 @@
          <div class="iflogingo">
              <button>其他方式登陆</button>
          </div>
-         
+         <div class="zuce">
+             <a href="##">注册账号</a>
+         </div>
      </div>
      
  </div>
@@ -43,7 +47,12 @@ export default {
  },
  components: {
 
- }
+ },
+  methods: {
+    goto (path) {
+      this.$router.replace(path)
+    }
+  }
 }
 </script>
 <style lang="stylus" rel="stylesheet/stylus" scoped>
@@ -212,4 +221,25 @@ export default {
         color black
         border-radius: 4px;
         margin: -3.52667rem auto;
+    .zuce
+      text-align center
+      a
+        width 90%
+        height: 2.85333rem
+        line-height: 3.85333rem
+        margin-top 1rem
+        background white
+        text-align center
+        margin 0 auto 
+        color black
+        font-size 0.23rem
+        border-radius: 4px;
+        margin: -3.52667rem auto;
+    .wenti
+      width 90%
+      margin 0 auto
+      a
+        float left 
+      span
+        float right 
 </style>
