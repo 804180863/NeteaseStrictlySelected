@@ -10,8 +10,7 @@ import FootList from './components/FootList/FootList'
 export default {
   components:{
     FootList
-  }
-  
+  } 
 }
 </script>
 

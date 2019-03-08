@@ -4,6 +4,7 @@ import GeneralThings from '../pages/GeneralThings/GeneralThings.vue'
 import Home from '../pages/Home/Home.vue'
 import ShoppingCart from '../pages/ShoppingCart/ShoppingCart.vue'
 import Login from '../pages/Login/Login.vue'
+import ClassifyList from '../pages/Classify/ClassifyList'
 export default [
     {
       path: '/Account',
@@ -15,6 +16,22 @@ export default [
     {
         path: '/Classify',
         component: Classify,
+        children:[
+          {
+          path: '/Classify/ClassifyList',
+          component: ClassifyList,
+          meta: {
+            showFooter: true
+          }
+        },
+        {
+          path: '',
+          redirect:'/Classify/ClassifyList',
+          meta: {
+            showFooter: true
+          }
+        }
+        ],
         meta: {
             showFooter: true
           }
