@@ -116,6 +116,104 @@
                <img  alt="" data-src="http://yanxuan.nosdn.127.net/e1d2f0b529eddc9b645997d0f16e9aca.png" src="http://yanxuan.nosdn.127.net/e1d2f0b529eddc9b645997d0f16e9aca.png" lazy="loaded"></li>
          </ul>
          <!-- 私人定制 -->
+         <div class="customize">
+          <div class="customizetext">私人定制</div>
+          <!-- 定制轮播图 -->
+          <div class="swiper-container1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="http://yanxuan.nosdn.127.net/85b9c081a3859fbff67a54f9222ad068.png" alt="">
+                  <span class="wenzi1">日本制造美容</span>
+                  <span class="wenzi2">$459</span> 
+                <img src="http://yanxuan.nosdn.127.net/1985e340c80c8b8b92555368faadbd89.png" alt="">
+                <span class="wenzi3">日本制造美容</span>
+                  <span class="wenzi4">$459</span> 
+                 <img src="http://yanxuan.nosdn.127.net/38253e4bc864ded67fe49a34fcbf70b0.png" alt="">
+                 <span class="wenzi5">日本制造美容</span>
+                  <span class="wenzi6">$459</span> 
+              </div>
+              <div class="swiper-slide">
+                <img src="http://yanxuan.nosdn.127.net/85b9c081a3859fbff67a54f9222ad068.png" alt="">
+                  <span class="wenzi1">日本制造美容</span>
+                  <span class="wenzi2">$459</span> 
+                <img src="http://yanxuan.nosdn.127.net/1985e340c80c8b8b92555368faadbd89.png" alt="">
+                <span class="wenzi3">日本制造美容</span>
+                  <span class="wenzi4">$459</span> 
+                 <img src="http://yanxuan.nosdn.127.net/38253e4bc864ded67fe49a34fcbf70b0.png" alt="">
+                 <span class="wenzi5">日本制造美容</span>
+                  <span class="wenzi6">$459</span> 
+              </div>
+              <div class="swiper-slide">
+               <img src="http://yanxuan.nosdn.127.net/85b9c081a3859fbff67a54f9222ad068.png" alt="">
+                  <span class="wenzi1">日本制造美容</span>
+                  <span class="wenzi2">$459</span> 
+                <img src="http://yanxuan.nosdn.127.net/1985e340c80c8b8b92555368faadbd89.png" alt="">
+                <span class="wenzi3">日本制造美容</span>
+                  <span class="wenzi4">$459</span> 
+                 <img src="http://yanxuan.nosdn.127.net/38253e4bc864ded67fe49a34fcbf70b0.png" alt="">
+                 <span class="wenzi5">日本制造美容</span>
+                  <span class="wenzi6">$459</span> 
+              </div>
+              <div class="swiper-slide">
+               <img src="http://yanxuan.nosdn.127.net/85b9c081a3859fbff67a54f9222ad068.png" alt="">
+                  <span class="wenzi1">日本制造美容</span>
+                  <span class="wenzi2">$459</span> 
+                <img src="http://yanxuan.nosdn.127.net/1985e340c80c8b8b92555368faadbd89.png" alt="">
+                <span class="wenzi3">日本制造美容</span>
+                  <span class="wenzi4">$459</span> 
+                 <img src="http://yanxuan.nosdn.127.net/38253e4bc864ded67fe49a34fcbf70b0.png" alt="">
+                 <span class="wenzi5">日本制造美容</span>
+                  <span class="wenzi6">$459</span> 
+              </div>
+             
+            </div>
+             <div class="swiper-pagination1" ></div>
+          </div>
+         </div>
+          <!-- 限时购 -->
+          <div  class="timeToBuy">
+            <div  class="timeToBuy-header">
+              <span  class="timeToBuy-title">限时购</span>
+               <div  class="countDown ">
+                 <span  class="hour">03</span>
+                  <span  class="colon">:</span> 
+                  <span  class="minutes">04</span>
+                   <span  class="colon">:</span> 
+                   <span  class="seconds">05</span>
+                   </div> <span  class="more ">更多&gt;</span>
+                   </div> 
+                   <ul  class="timeToBuy-goods clearfloat">
+                     <li  class="timeToBuy-good">
+                       <img  alt="" data-src="http://yanxuan.nosdn.127.net/ff90462e4d7c7edd01a25f8932e1800f.png" src="http://yanxuan.nosdn.127.net/ff90462e4d7c7edd01a25f8932e1800f.png" lazy="loaded">
+                        <span  class="activityPrice">¥289</span>
+                         <span  class="originPrice">¥349</span>
+                         </li>
+                         <li  class="timeToBuy-good">
+                           <img  alt="" data-src="http://yanxuan.nosdn.127.net/fe06530dd35ec5062c1ecaf82d4812d6.png" src="http://yanxuan.nosdn.127.net/fe06530dd35ec5062c1ecaf82d4812d6.png" lazy="loaded">
+                            <span  class="activityPrice">¥125</span>
+                             <span  class="originPrice">¥179</span>
+                             </li>
+                             <li  class="timeToBuy-good">
+                               <img  alt="" data-src="http://yanxuan.nosdn.127.net/de34d4d8407709f2edd88597d66fcfcb.png" src="http://yanxuan.nosdn.127.net/de34d4d8407709f2edd88597d66fcfcb.png" lazy="loaded">
+                                <span  class="activityPrice">¥584</span> 
+                                <span  class="originPrice">¥899</span>
+                                </li>
+                                <li  class="timeToBuy-good">
+                                  <img  alt="" data-src="http://yanxuan.nosdn.127.net/da9c2255909d0d1fe5cabff6d93c03db.png" src="http://yanxuan.nosdn.127.net/da9c2255909d0d1fe5cabff6d93c03db.png" lazy="loaded"> 
+                                  <span  class="activityPrice">¥2079</span> 
+                                  <span  class="originPrice">¥2599</span>
+                                  </li>
+                                  <li  class="timeToBuy-good">
+                                    <img  alt="" data-src="http://yanxuan.nosdn.127.net/8b7bde0b395e2bda54505cf4c3b7880b.png" src="http://yanxuan.nosdn.127.net/8b7bde0b395e2bda54505cf4c3b7880b.png" lazy="loaded">
+                                     <span  class="activityPrice">¥29.9</span>
+                                      <span  class="originPrice">¥35.8</span>
+                                      </li>
+                                      <li  class="timeToBuy-good"><img  alt="" data-src="http://yanxuan.nosdn.127.net/2adbaae8403ac4dcac56ebf2ff1a5116.png" src="http://yanxuan.nosdn.127.net/2adbaae8403ac4dcac56ebf2ff1a5116.png" lazy="loaded"> 
+                                      <span  class="activityPrice">¥87.2</span>
+                                       <span  class="originPrice">¥109</span>
+                                       </li>
+                                       </ul>
+                                      </div>
       </div>
       
       
@@ -138,9 +236,14 @@ export default {
       pagination: {
     el: '.swiper-pagination',
     
-  },
-      
-    })
+  },})
+  var mySwiper1 = new Swiper('.swiper-container1', {
+      autoplay: 5000,//可选选项，自动滑动
+      pagination: {
+    el: '.swiper-pagination1',
+    
+  },})
+
  },
  methods:{
    initScroll(){
@@ -261,7 +364,8 @@ export default {
       top 2.1rem
       width 100%
       height 12rem
-      background white 
+      background white
+      z-index 9999
       // display none   
       .pindao
         position absolute  
@@ -295,7 +399,7 @@ export default {
   width 100%
   height 1000rem
   margin-top 2rem
-  background red
+  
   .swiper-container
     .swiper-wrapper
       .swiper-slide
@@ -357,13 +461,13 @@ export default {
       background-image: url(url("https://yanxuan.nosdn.127.net/252dbf6cdf6597f5a25940544be765c0.png"));
       background-size: 100% 100%;
       display: block;
-      width: 10.30333rem;
+      width: 45%;
       height: 7.52rem;
       float: left;
       margin: 1.05333rem 0 0 0.85333rem;
       padding: 0.26667rem 0 0 0.26667rem;
       border-radius: 0.05333rem;
-      background blue
+      background #eee
       .title
         color: #333;
         padding-left: 0.13333rem;
@@ -379,4 +483,149 @@ export default {
         height:5rem;
         float: left;
         margin-right: 0.05333rem;
+  .customize
+    margin-top 18rem
+    margin 18rem auto
+    width 90%
+    height 0rem
+    
+    .customizetext
+     font-size 1.2rem
+    .swiper-container1
+      overflow hidden
+      .swiper-wrapper
+        .swiper-slide
+          overflow hidden
+          position relative
+          margin-top 2rem
+          height 8rem
+          img 
+            
+            width 32%
+            height 6rem
+          .wenzi1
+            position absolute 
+            top 5rem
+            left 0.8rem
+            width 30%
+            font-size 0.2rem
+          .wenzi2
+            position absolute 
+            top 6rem  
+            left 1.2rem
+            width 30%
+            font-size 0.2rem
+          .wenzi3
+            position absolute 
+            top 5rem
+            left 7.8rem
+            width 30%
+            font-size 0.2rem
+          .wenzi4
+            position absolute 
+            top 6rem  
+            left 8.2rem
+            width 30%
+            font-size 0.2rem
+          .wenzi5
+            position absolute 
+            top 5rem
+            left 14.8rem
+            width 30%
+            font-size 0.2rem
+          .wenzi6
+            position absolute 
+            top 6rem  
+            left 15.2rem
+            width 30%
+            font-size 0.2rem
+      .swiper-pagination1
+        text-align center
+  .timeToBuy
+    width: 100%;
+    line-height: 1.33333rem;
+    padding: 0 0.4rem;
+    background: #fff;
+    overflow: hidden;
+    font-size: 0.42667rem;
+    .timeToBuy-header
+      width: 100%;
+      .timeToBuy-title
+        font-size 1.2rem
+        float: left; 
+      .countDown
+        float: left;
+        display: inline-block;
+        vertical-align: middle;
+        margin: -0.02rem 0 0 0.16rem;
+        .hour
+          display: inline-block;
+          font-size: 1.32rem;
+          line-height: 1.48rem;
+          width: 1.48rem;
+          height:1.48rem;
+          text-align: center;
+          background-color: #333;
+          border-radius: 0.05333rem;
+          color: #fff;
+          margin: 0 0.13333rem;
+        .colon
+          font-size: 1.87333rem;
+        .minutes
+          display: inline-block;
+          font-size: 1.32rem;
+          line-height: 1.48rem;
+          width: 1.48rem;
+          height: 1.48rem;
+          text-align: center;
+          background-color: #333;
+          border-radius: 0.05333rem;
+          color: #fff;
+          margin: 0 0.13333rem;
+        .colon
+          font-size: 1.87333rem;
+        .seconds
+          display: inline-block;
+          font-size: 1.32rem;
+          line-height: 1.48rem;
+          width: 1.48rem;
+          height: 1.48rem;
+          text-align: center;
+          background-color: #333;
+          border-radius: 0.05333rem;
+          color: #fff;
+          margin: 0 0.13333rem; 
+      .more
+        float: right;
+        display: block;
+        font-size: 0.37333rem;
+        color: #333;
+        line-height: 1.33333rem;
+        margin-right: 0.67333rem;  
+    .timeToBuy-goods
+      line-height 1rem
+      .timeToBuy-good
+        text-align: center;
+        color: #333;
+        float: left;
+        margin-right: 0.26667rem;
+        margin-left: 1.06667rem;
+        margin-top: 1.06667rem;
+        img
+          display: block;
+          width: 6.88rem;
+          height: 5.88rem;
+          background: #f5f5f5;
+          border-radius: 4px;
+      .timeToBuy-good
+        .activityPrice
+          font-size: 0.37333rem;
+          color: #b4282d;
+        .originPrice
+          font-size: 0.32rem;
+          color: #7f7f7f;
+          text-decoration: line-through;
+      
+            
+
 </style>
