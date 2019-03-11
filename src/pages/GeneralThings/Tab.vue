@@ -64,21 +64,17 @@ autoGetDataNum:1,
         let oScroll = new BScroll(".tabWrapper", {
           bounce: false,
           probeType: 2,
-          //下拉刷新：可以配置顶部下拉的距离（threshold） 来决定刷新时机以及回弹停留的距离（stop）
-          //这个配置用于做上拉加载功能，默认为 false。当设置为 true 或者是一个 Object 的时候，可以开启上拉加载
-            pullUpLoad: true,
+          pullUpLoad: true,//上拉加载
           scrollX: false,
           click: true
         });
         oScroll.on("pullingUp", () => {
-          console.log('上拉加载数据');
-          // 上拉加载
           this.autoGetDataNum++;
           console.log(this.autoGetDataNum)
           if (this.tabId === 9) {
             this.$store.dispatch('getAutoRecommendData', {page: this.autoGetDataNum, size: 5})
           }
-          oScroll.finishPullUp();//可以多次执行上拉刷新
+          oScroll.finishPullUp();//这个方法可以多次刷新
         });
          oScroll.refresh();
       })

@@ -1,7 +1,4 @@
-<!--
-  识物: style: 2
-  识物组推荐
--->
+<!--style: 2推荐-->
 <template>
 	<div class="groupItem-wrapper">
     <div class="groupItem-info">
@@ -32,8 +29,8 @@
       topic: Object
     },
     computed: {
+      //转换字符串
       readCount () {
-        // 将拿到的数字转为字符串
         const {readCount} = this.topic;
         let readCountStr = readCount.toString();
         if (readCountStr.length <= 4) {

@@ -23,8 +23,6 @@ const state = {
     hasMore:false,
     result: []
   },
-
-
   // 晒单数据
   showTabData: {
     hasMore:false,
@@ -41,18 +39,15 @@ const state = {
 
   }
 };
-
 const mutations = {
   // Tab栏数据
   [RECEIVE_TABS] (state,{tabs}) {
     state.tabs = tabs
   },
-
   // 推荐数据
   [RECEIVE_RECOMMENDDATA] (state, {recommendData}) {
     state.recommendData = recommendData
   },
-
   // 推荐数据上拉加载
   [RECEIVE_AUTORECOMMENDDATA] (state, {autoRecommendData}) {
     if (!state.autoRecommendData.hasMore) {
@@ -63,7 +58,6 @@ const mutations = {
       state.autoRecommendData.result.push(...autoRecommendData.result)
     }
   },
-
   // 获取其它组件数据
   [RECEIVE_TABDATA] (state, {tabData, tabId}) {
     // 根据tabId判断要往哪个状态里存放数据

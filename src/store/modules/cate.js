@@ -1,18 +1,16 @@
-// 首页状态管理模块
+// 首页状态管理
 import {reqCateList} from '../../api'
 import {RECRIVE_CATELIST} from '../mutation-type'
-
+//状态数据
 const state = {
   cateList: []
 };
-
 const mutations = {
   [RECRIVE_CATELIST] (state,{cateList}) {
-    // mutation直接操作状态
+    // 直接操作mu
     state.cateList = cateList
   }
 };
-
 const actions = {
   // 获取分类列表数据
   async getCateList ({commit}, cb) {
@@ -24,7 +22,6 @@ const actions = {
       commit(RECRIVE_CATELIST, {cateList})
       typeof cb === 'function' && cb()
     }
-    // typeof cb === 'function' && cb()
   }
 
 };

@@ -1,7 +1,4 @@
-<!--
-style: 1
-选妹推荐
--->
+<!--style 1推荐-->
 <template>
 	<div class="xuanmei-wrapper">
     <div class="header">
@@ -32,8 +29,7 @@ style: 1
       topic: Object
     },
      computed: {
-      readCount () {
-        // 将拿到的数字转为字符串
+      readCount () { //转换字符串方法
         const {readCount} = this.topic;
         let readCountStr = readCount.toString();
         if (readCountStr.length <= 4) {
