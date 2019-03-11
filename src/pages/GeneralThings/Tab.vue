@@ -8,7 +8,13 @@
            <Style2 v-if="topic.style === 2" :topic="topic"></Style2>
           </li>
         </ul>
-  
+   <ul v-for="(item, index) in autoRecommendData.result" :key="index + '-label'">
+          <li v-for="(topic, index) in item.topics" :key="index">
+           <Style1 v-if="topic.style === 1" :topic="topic"></Style1>
+           <Style2 v-if="topic.style === 2" :topic="topic"></Style2>
+          </li>
+          
+        </ul>
     </div>
   </div>
    
