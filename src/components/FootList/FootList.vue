@@ -12,7 +12,7 @@
     </span>
     <span>分类</span>
   </a>
-  <a href="javascript:;" class="guide_item" :class="{on:$route.path==='/GeneralThings'}"  @click="goto('/GeneralThings')">
+  <a href="javascript:;" class="guide_item" :class="{on:$route.path==='/GeneralThings/tab/:id'}"  @click="goto('/GeneralThings')">
     <span class="item_icon">
       <i class="iconfont icon-fangdajing" ></i>
     </span>

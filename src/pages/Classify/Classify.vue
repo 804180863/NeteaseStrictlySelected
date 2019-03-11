@@ -71,6 +71,7 @@ export default {
        this.num=indexx
      
        if(this.cateList.categoryL1List){
+      console.log(this.cateList.categoryL1List);
       
        this.datass = this.cateList.categoryL1List.find((item,index)=>{
           return indexx===index
@@ -137,19 +138,19 @@ export default {
         height: 1.07333rem;
         margin-right: 0.13333rem;
   .contents 
-    height 100rem
+    height 38rem
     width 100%
      
     .leftList
       margin-top 2.17333rem;
       width 20%
-      height 70rem
+      height 38rem
       border-right 1px solid #eee
       float left
        
       .content
         width 100%
-        height 80rem
+        height 41rem
         li
           margin-top 0.6rem
           width 90%
@@ -165,7 +166,7 @@ export default {
     .rightList
       margin-top 2.17333rem;
       width 79%
-      height 70rem
+      height 39rem
       float right
             
 </style>

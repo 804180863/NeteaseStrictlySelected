@@ -397,7 +397,7 @@ export default {
       background rgba(0,0,0,0.4) 
 .content
   width 100%
-  height 1000rem
+  height 100rem
   margin-top 2rem
   
   .swiper-container
@@ -609,7 +609,7 @@ export default {
         color: #333;
         float: left;
         margin-right: 0.26667rem;
-        margin-left: 1.06667rem;
+        margin-left: 0.06667rem;
         margin-top: 1.06667rem;
         img
           display: block;

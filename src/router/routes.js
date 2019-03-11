@@ -1,8 +1,10 @@
 import Account from '../pages/Account/Account.vue'
 import Classify from '../pages/Classify/Classify.vue'
 import GeneralThings from '../pages/GeneralThings/GeneralThings.vue'
+import Tab from '../pages/GeneralThings/Tab.vue'
 import Home from '../pages/Home/Home.vue'
 import ShoppingCart from '../pages/ShoppingCart/ShoppingCart.vue'
+
 import Login from '../pages/Login/Login.vue'
 import ClassifyList from '../pages/Classify/ClassifyList'
 export default [
@@ -39,6 +41,15 @@ export default [
       {
         path: '/GeneralThings',
         component: GeneralThings,
+        redirect:'/GeneralThings/tab/0',
+        children:[
+          {
+          path: '/GeneralThings/Tab/:id',
+          component: Tab,
+          meta: {
+            showFooter: true
+          }
+        },],
         meta: {
             showFooter: true
           }
