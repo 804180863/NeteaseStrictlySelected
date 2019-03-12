@@ -21,8 +21,6 @@
   </div>
 </template>
 <script>
-
-
 import {mapState} from 'vuex'
 import BScroll from 'better-scroll'
 import { setTimeout } from 'timers';
@@ -40,17 +38,14 @@ export default {
  mounted(){
    this.$store.dispatch('getCateList')
      this.initScroll()
-    
-    
-
  },
  updated(){
+   //初始化显示推荐列表
    if(this.num){
     
    }else{
      this.loveList(0)
-   }
-      
+   }    
     },
  methods:{
      initScroll(){
@@ -69,10 +64,7 @@ export default {
      },
      loveList(indexx){
        this.num=indexx
-     
        if(this.cateList.categoryL1List){
-      console.log(this.cateList.categoryL1List);
-      
        this.datass = this.cateList.categoryL1List.find((item,index)=>{
           return indexx===index
         })

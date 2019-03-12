@@ -47,7 +47,7 @@
 import Style1 from '../../components/Style1/Style1'
 import Style2 from '../../components/Style2/Style2'
 import shaidan from '../../components/shaidan/shaidan'
- import BScroll from 'better-scroll'
+import BScroll from 'better-scroll'
 import {mapState} from 'vuex'
 export default {
     
@@ -61,29 +61,28 @@ autoGetDataNum:1,
         this.$store.dispatch('getRecommendData')
       }
       this.$nextTick(() => {
-        let oScroll = new BScroll(".tabWrapper", {
+        let shanglajiazai = new BScroll(".tabWrapper", {
           bounce: false,
           probeType: 2,
           pullUpLoad: true,//上拉加载
           scrollX: false,
           click: true
         });
-        oScroll.on("pullingUp", () => {
+        shanglajiazai.on("pullingUp", () => {
           this.autoGetDataNum++;
-          console.log(this.autoGetDataNum)
           if (this.tabId === 9) {
             this.$store.dispatch('getAutoRecommendData', {page: this.autoGetDataNum, size: 5})
           }
-          oScroll.finishPullUp();//这个方法可以多次刷新
+          shanglajiazai.finishPullUp();//这个方法可以多次刷新
         });
-         oScroll.refresh();
+         shanglajiazai.refresh();
       })
       
  },
  components: {
-Style1,
-Style2,
-shaidan
+    Style1,
+    Style2,
+    shaidan
  },
  computed: { 
      ...mapState({
